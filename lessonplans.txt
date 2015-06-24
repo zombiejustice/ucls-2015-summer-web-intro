@@ -1,0 +1,135 @@
+Web Design (based on Session 2 2011 curriculum)
+
+Week 1:
+
+Monday:
+    set up:
+	find that mac mini with OSX Server on it
+        give all students accounts
+    part one:
+        nameplates, class rules, internet safety
+        text editor and server
+        assignment 0: firstpage
+            start out by writing three paragraphs:
+		something cool you learned this year
+		why it is cool
+		what you will do with this knowledge in the future
+    part two:
+        html, body, paragraphs, headlines
+
+Tuesday:
+    set-up:
+        put link to hex color chooser on homepage
+    part one:
+        review class rules, server, html
+        head, title, link
+        background-color, color, font-family
+        hex color chooser, digital color meter
+    part two:
+        box model, padding, borders, margin, width
+        element styling
+
+Wednesday:
+    part one:
+        review server, head/body distinction, title
+        review element styling, box model
+        images, height, display: block;
+        seriously, ten minutes for finding pictures, plus ten for styling
+	NB: to avoid file permission problems, do not drag pictures into the folder. Instead, do File -> Save As and the permissions should be fine.
+    part two:
+        divs, ids
+        assignment 1: animal page
+            must cite image and text sources
+            three divs with ids, styled differently
+            each div has headline, image,
+            at least one paragraph
+
+Friday:
+    part one:
+        review divs, ids, image centering, font-family, padding
+        font-weight, font-style, text-align
+        work on animal page
+
+Week 2: (by this time in 2012, we were a day behind, hence repeats)
+		(also in 2013. Systemic problem?)
+		(also 2014, but that was SERVER TROUBLES.)
+
+Monday:
+    part one:
+	finish up animal page
+    part two:
+        anchors, hyperlink styling
+        remind to cite images and info
+
+Tuesday:
+    set-up:
+        have cut-down sohn interview, example interviews
+    part one:
+        review hyperlinks, stylesheets
+        classes, font-size
+        assignment 2: interview project
+            must have questions and answers as two different
+            classes with visually distinct styling
+    part two:
+        text-decoration for links
+        remind to link from homepage
+
+EC ideas: text-indent, ::before { content: open-quote; }, ::first-letter, @font-face
+
+Wednesday
+	part one:
+		review ids
+		internal links, lists
+		assignment: fairy tales
+			Choose a fairy tale
+			Add link menu / list
+	part two:
+		digital color meter, big huge color palette generator
+		assignment update:
+			add pictures
+			style with colors from the picture
+
+Thursday:
+	part one:
+		review images, hyperlinks
+		floating (with margins), image sources
+		assignment update:
+			float images
+			a new list with citations for images
+	part two:
+		show and tell / public shaming
+		
+Friday: NO SCHOOL, FOOL
+		
+Week 3:
+
+Monday:
+	set up:
+		have pre-built div they can copy/paste into their sites
+	part one:
+		external stylesheets on multiple pages
+		multiple external stylesheets on one page
+		descendent selectors
+		assignment: navigation bar
+			copy/past list o' links into pages
+			make all the links work
+			style using descendent selectors, single stylesheet
+
+	part two:
+		review link styling
+
+		
+Tuesday:
+	set up:
+		have articles for the paper, pre-built column page
+	part one:
+		explain lorem ipsum text
+		explain newspaper layout
+		show examples, emphasize columns
+		pencil and paper: design a layout
+		early recess
+	part two:
+		column-count, column-width, column-gap, column-span
+		columns using inline-block, float,
+		assignment 5: newspaper website
+			Make a professional-looking website for the Summer Lab newspaper!

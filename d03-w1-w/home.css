@@ -1,0 +1,32 @@
+body {
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    padding: 10px;
+    border-left: 10px solid #666666;
+    background-color: #333366;
+    color: #ccccff;
+    font-family: "courier new", monospace;
+}
+
+h2 {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding: 5px 50px;
+    border-top: 4px dotted #666699;
+    font-family: "arial", sans-serif;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    border: 6px solid #666699;
+    background-color: #ccccff;
+    color: #333366;
+    font-family: "arial", sans-serif;
+}
+
