@@ -1,0 +1,47 @@
+img {
+	width: 400px;
+	display: block;
+	margin: auto;
+}
+
+div {
+	margin: auto;
+	width: 600px;
+	box-sizing: border-box;
+	border-width: 30px;
+	border-style: double;
+	border-color: rgba(115, 24, 5, 0.8);
+	padding: 10px;
+	background-color: rgba(219, 190, 153, 0.8);
+	background-clip: padding-box;
+	border-radius: 40px;
+	color: rgb(45, 46, 16);
+}
+
+button {
+	display: block;
+	width: 400px;
+	box-sizing: border-box;
+	margin: 5px auto;
+	font-size: 24pt;
+	border-radius: 0;
+	border-width: 10px;
+	border-style: outset;
+	border-color: rgba(219, 190, 153, 0.8);
+	background-color: inherit;
+}
+
+button:active {
+	border-style: inset;
+}
+
+body {
+	background-image: url("White_House.jpg");
+	background-size: cover;
+	font-family: "Monaco", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+}

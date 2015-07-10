@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Custom Page</title>
+<link rel='stylesheet' type='text/css' href='custom.css' />
+<script type='text/javascript'>
+
+function customize() {
+
+	var bgcolor = document.getElementById('bgcolor').value;
+	document.getElementsByTagName('form')[0].style.backgroundColor = bgcolor;
+
+	var fontsize = document.getElementById('fontsize').value + 'pt';
+	document.getElementsByTagName('h1')[0].style.fontSize = fontsize;
+
+	var face = document.getElementById('face').value;
+	document.body.style.fontFace = face;
+
+}
+</script>
+</head>
+<body>
+	<h1>Customize this page!</h1>
+	<form onChange='customize()'>
+		<label>Background: <input type='color' value='#abcdef' id='bgcolor' /></label>
+		<br />
+		<label>Font Size: <input type='range' min='12' max='200' value='18' id='fontsize' /></label>
+		<br />Fontface: <label><input type='radio' name='face' value='"Lucida Console", monospace' /> Lucida</label> | <label><input type='radio' name='face' value='"Monaco", monospace' /> Monaco</label> | <label><input type='radio' name='face' value='"Courier New", monospace' /> Courier</label>
+	</form>
+
+</body>
+</html>

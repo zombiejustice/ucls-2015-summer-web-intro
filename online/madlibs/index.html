@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>All Libs Must Be Mad Libs</title>
+<link rel='stylesheet' type='text/css' href='madlibs.css' />
+<script type='text/javascript'>
+	function replace() {
+		document.getElementById('form').style.display = 'none';
+		var inputs = document.getElementsByTagName('input');
+		for (i=0; i< inputs.length; i++) {
+			var id = inputs[i].id;
+			var word = inputs[i].value;
+			var spans = document.getElementsByClassName(id);
+			for (j=0; j<spans.length; j++) {
+				spans[j].innerHTML = word;
+			}
+		}
+		document.getElementById('story').style.display = 'block';
+	}
+	</script>
+</head>
+<body>
+	<h1>A Day at the Park</h1>
+<div id='form'>
+
+<label><input type='text' id='noun0' /> Noun</label><br />
+<label><input type='text' id='proper0' /> Name</label><br />
+<label><input type='text' id='noun1' /> Noun</label><br />
+<label><input type='text' id='gerund0' /> Gerund ('-ing' word)</label><br />
+<label><input type='text' id='equipment' /> Sports Equipment</label><br />
+<label><input type='text' id='pastverb0' /> Past Tense Verb</label><br />
+<label><input type='text' id='noun2' /> Noun</label><br />
+<button onClick='replace()'>Go!</button>
+</div>
+<div id='story'>
+<p>One fine day while the <span class='noun0'>sun</span> was shining, a young girl named <span class='proper0'>Elizabeth</span> sat on a <span class='noun1'>bench</span> in the park and thought to herself, "Today I shall go <span class='gerund0'>swimming</span>." The only problem was, she didn't have her <span class='equipment'>swimsuit</span> with her!</p>
+<p>"I can't go <span class='gerund0'>swimming</span> without my <span class='equipment'>swimsuit</span>," she told herself. What could she do? Then she <span class='pastverb0'>had</span> an idea! She would just use her <span class='noun2'>whatchamacallit (you know, that thingamajig)</span> instead! <strong>And then she did.</strong></p>
+</div>
+</body>
+</html>
