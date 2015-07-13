@@ -6,15 +6,15 @@ WEEK ONE:
 
 Monday:
     set up:
-		set up x10hosting -did not do this until Tuesday
+        set up x10hosting -did not do this until Tuesday
     part one:
         nameplates, class rules, internet safety
         text editor (Sublime Text 2)
         assignment 0: firstpage
             start out by writing three paragraphs:
-		something cool you learned this year
-		why it is cool
-		what you will do with this knowledge in the future
+        something cool you learned this year
+        why it is cool
+        what you will do with this knowledge in the future
     part two:
         html, body, paragraphs, headlines, head, title
 
@@ -28,17 +28,17 @@ Tuesday:
         element styling
         hex color chooser, digital color meter -never did this
     part two:
-    	server (x10) and FTP client (Cyberduck)
+        server (x10) and FTP client (Cyberduck)
         
 
 Wednesday:
-	set up: completed and skeleton example animal pages
+    set up: completed and skeleton example animal pages
     part one:
         review server, client
         box model, padding, borders, margin, width
         images, height, display: block;
         seriously, ten minutes for finding pictures, plus ten for styling
-	NB: to avoid file permission problems, do not drag pictures into the folder. Instead, do File -> Save As and the permissions should be fine.
+    NB: to avoid file permission problems, do not drag pictures into the folder. Instead, do File -> Save As and the permissions should be fine.
     part two:
         ARTICLES (not divs), ids
         assignment 1: animal page
@@ -53,9 +53,9 @@ Thursday:
         font-weight, font-style, text-align, anchor/hyperlinks
         remind to cite images and info
     part two:
-    	hyperlink styling
-    	review of uploading, esp. images
-    	ask about interviewable figures?
+        hyperlink styling
+        review of uploading, esp. images
+        ask about interviewable figures?
 
 Friday:
     set-up:
@@ -75,54 +75,54 @@ EC ideas: text-indent, ::before { content: open-quote; }, ::first-letter, @font-
 WEEK TWO:
 
 Monday:
-	set-up:
-		have example menu, with multiple stylings
-	part one:
-		review working locally
-		review hyperlinks, hyperlink styling, display:block, float
-		nav, descendant selectors
-		point out that all interviews styled off the same stylesheet
-		assignment update:
-			nav menu between interviews, unique styling
-	part two:
-		id='current', descendant selectors with a pseudoclass or class
-		assignment update:
-			use current ids
+    set-up:
+        have example menu, with multiple stylings
+    part one:
+        review working locally
+        review hyperlinks, hyperlink styling, display:block, float
+        nav, descendant selectors
+        point out that all interviews styled off the same stylesheet
+        assignment update:
+            nav menu between interviews, unique styling
+    part two:
+        id='current', descendant selectors with a pseudoclass or class
+        assignment update:
+            use current ids
 
 Tuesday:
-	set-up:
-		have beginning and completed example riddle pages
-	part one:
-		review link
-		the idea of cribbing off older assignments, viewed source
-		:hover on non-anchor elements, transitions
-		assignment: riddle page
-			page from 'scratch'
-			get some riddles
-			use :hover to reveal answers
-	part two:
-		intro to javascript
-		javascript console
-		.style.*
-		events, functions
-		assignment update:
-			use javascript to change color &c
+    set-up:
+        have beginning and completed example riddle pages
+    part one:
+        review link
+        the idea of cribbing off older assignments, viewed source
+        :hover on non-anchor elements, transitions
+        assignment: riddle page
+            page from 'scratch'
+            get some riddles
+            use :hover to reveal answers
+    part two:
+        intro to javascript
+        javascript console
+        .style.*
+        events, functions
+        assignment update:
+            use javascript to change color &c
 
 Wednesday:
-	part one:
-		brush up your work for...
-	part two:
-		show-and-tell / peer review / public shaming
+    part one:
+        brush up your work for...
+    part two:
+        show-and-tell / peer review / public shaming
 
 Thursday:
-	part one:
-		review js .style.*
-		forms
-	part two:
-		input type='range'
+    part one:
+        review js .style.*
+        forms
+    part two:
+        input type='range'
 
 Friday: NO SCHOOL, FOOL
-		
+        
 WEEK THREE: Gallery Project and JS Mad Libs
 NB: Use last five minutes of last class for high-fives!
 
@@ -130,57 +130,57 @@ NB: Use last five minutes of last class for high-fives!
 DID NOT DO IN 2015:
 
 FAIRY TALES
-	part one:
-		review ids
-		internal links, lists
-		assignment: fairy tales
-			Choose a fairy tale
-			Add link menu / list
-	part two:
-		digital color meter, big huge color palette generator
-		assignment update:
-			add pictures
-			style with colors from the picture
+    part one:
+        review ids
+        internal links, lists
+        assignment: fairy tales
+            Choose a fairy tale
+            Add link menu / list
+    part two:
+        digital color meter, big huge color palette generator
+        assignment update:
+            add pictures
+            style with colors from the picture
 
 FAIRY TALES DAY 2:
-	part one:
-		review images, hyperlinks
-		floating (with margins), image sources
-		assignment update:
-			float images
-			a new list with citations for images
-	part two:
-		show and tell / public shaming
-		
+    part one:
+        review images, hyperlinks
+        floating (with margins), image sources
+        assignment update:
+            float images
+            a new list with citations for images
+    part two:
+        show and tell / public shaming
+        
 
 NAV MENU: -wrapped this into the interview project
-	set up:
-		have pre-built div they can copy/paste into their sites
-	part one:
-		external stylesheets on multiple pages
-		multiple external stylesheets on one page
-		descendent selectors
-		assignment: navigation bar
-			copy/past list o' links into pages
-			make all the links work
-			style using descendent selectors, single stylesheet
+    set up:
+        have pre-built div they can copy/paste into their sites
+    part one:
+        external stylesheets on multiple pages
+        multiple external stylesheets on one page
+        descendent selectors
+        assignment: navigation bar
+            copy/past list o' links into pages
+            make all the links work
+            style using descendent selectors, single stylesheet
 
-	part two:
-		review link styling
+    part two:
+        review link styling
 
-		
+        
 NEWSPAPER:
-	set up:
-		have articles for the paper, pre-built column page
-	part one:
-		explain lorem ipsum text
-		explain newspaper layout
-		show examples, emphasize columns
-		pencil and paper: design a layout
-		early recess
-	part two:
-		column-count, column-width, column-gap, column-span
-		columns using inline-block, float,
-		assignment 5: newspaper website
-			Make a professional-looking website for the Summer Lab newspaper!
+    set up:
+        have articles for the paper, pre-built column page
+    part one:
+        explain lorem ipsum text
+        explain newspaper layout
+        show examples, emphasize columns
+        pencil and paper: design a layout
+        early recess
+    part two:
+        column-count, column-width, column-gap, column-span
+        columns using inline-block, float,
+        assignment 5: newspaper website
+            Make a professional-looking website for the Summer Lab newspaper!
 
