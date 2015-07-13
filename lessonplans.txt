@@ -21,7 +21,7 @@ Monday:
 Tuesday:
     set-up:
         actually set up free server
-        NB for future years: x10 takes to long to update server cache, use a different one
+        NB for future years: x10 takes too long to update server cache, use a different one
     part one:
         review class rules, html, head/body distinction
         link, background-color, color, font-family
