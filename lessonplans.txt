@@ -35,7 +35,7 @@ Wednesday:
     set up: completed and skeleton example animal pages
     part one:
         review server, client
-        box model, padding, borders, margin, width
+        box model, padding, borders, margin, width, box-sizing
         images, height, display: block;
         seriously, ten minutes for finding pictures, plus ten for styling
     NB: to avoid file permission problems, do not drag pictures into the folder. Instead, do File -> Save As and the permissions should be fine.
@@ -126,6 +126,51 @@ Friday: NO SCHOOL, FOOL
 WEEK THREE: Gallery Project and JS Mad Libs
 NB: Use last five minutes of last class for high-fives!
 
+Monday:
+    part one:
+        lorem ipsum, background-image, opacity, rgb, rgba
+        assignment: gallery/store
+            selling something with multiple pictures of that thing, is the idea
+    part two:
+        border-radius, background-clip
+        Big Huge Pallette Generator
+
+Tuesday:
+    part one:
+        javascript arrays
+        assignment update:
+            image swapping, pallette swapping
+    part two:
+        javascript conditional execution ("if")
+        assignment update:
+            looping the index around
+
+Wednesday:
+    part one:
+        key event listener, keyboard input
+        assignment update:
+            pictures change with arrow keys
+    part two: (untested)
+        window.location.search, String.split()
+        assignment update:
+            gallery saves your place
+
+Thursday:
+    part one:
+        review input
+        spans, input type='text'
+        assignment: mad libs
+            just one or two blanks, at first
+    part two:
+        for loops
+        assignment update:
+            use for loops to fill all blanks
+
+Friday:
+    part one:
+        touch up page for show and tell (early break)
+    part two:
+        final show and tell (remember to invite parents)
 
 DID NOT DO IN 2015:
 

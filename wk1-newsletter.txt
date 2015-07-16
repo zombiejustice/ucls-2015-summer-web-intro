@@ -1,0 +1,12 @@
+Hey there parents!
+   We had a great first week in Web Design, learning the basics of HTML and CSS as well as some important design principles such as controlling the page width and using high contrast between text and background. We also talked a lot about Internet safety: What is, and is not, OK to put online.
+   So far, we've made three webpages. The first was just to learn the ropes, but after that we made a page about three favorite animals, and then styled a page containing an interview. Both of these pages, for the entire class, can be found at:
+
+http://summerweb15.x10host.com/intro
+
+Please note that these are actual webpages, live on the Internet, and this link can be shared with relatives and friends. This will continue to be our class webpage for the remainder of the session. For safety reasons, I ask that you not share the link publicly or submit it to any search engines. For added security, all of our websites will be taken down about a week after summer lab ends.
+
+If you have any questions about the course, or about keeping children safe on the Internet, feel free to e-mail me with 'web design class' in the subject. Looking forward to another great two weeks to come.
+
+Yours,
+-Ian Huisken ("Mr. H")
