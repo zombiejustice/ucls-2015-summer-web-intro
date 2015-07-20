@@ -37,6 +37,7 @@ h2 {
 	font-weight: bold;
 }
 
+
 a:link {
 	color: #012345;
 }
@@ -45,24 +46,15 @@ a:visited {
 	color: #012345;
 }
 
-a:hover {
-
-}
-
-a:active {
-
-}
-
-
 /*navigation styling type 1*/
 
 /*
 nav {
 	background-color: #ffffff;
-	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
+	width: 100%;
 	text-align:center;
 }
 
@@ -72,14 +64,21 @@ nav a {
 	display: inline-block;
 }
 
+nav a:hover {
+	color: #abcdef;
+}
+
 nav a:first-child {
 	border-left: 3px solid #333399;
 }
 
-
-
 body {
 	margin-top: 50px;
+}
+
+#current {
+	background-color: #012345;
+	color: #ffffff;
 }
 */
 
@@ -123,8 +122,8 @@ nav a:hover {
 }
 
 #current:hover {
-	background-color: #abcdef;
-	border: 10px solid #012345;
+	background-clip: padding-box;
+	border: 10px double #012345;
 
 }
 

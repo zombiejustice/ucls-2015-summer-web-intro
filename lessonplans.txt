@@ -80,7 +80,7 @@ Monday:
     part one:
         review working locally
         review hyperlinks, hyperlink styling, display:block, float
-        nav, descendant selectors
+        nav, descendant selectors, position: absolute, postion: fixed
         point out that all interviews styled off the same stylesheet
         assignment update:
             nav menu between interviews, unique styling
