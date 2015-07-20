@@ -1,0 +1,20 @@
+Hey there!
+
+I hope that all my students enjoyed taking Web Design this summer, and maybe even are looking forward to doing more web design on their own in the future. To that end, I'm sending out some resources and links the kids can use to continue their education and keep practicing.
+
+The first and most useful is W3 Schools ( http://www.w3schools.com ). This site is maintained by the W3 Consortium, the group that (more or less) writes the rules for how most web technologies work. W3 Schools has an extensive and easy-to-understand reference section and tutorials to help students expand their knowledge.
+
+An even better resource for tutorials is Codecademy ( https://www.codecademy.com ). This site has free tutorials on HTML, CSS, Javascript and more advanced languages as well. I think this is the best site out there for teaching oneself the technical side of web development.
+
+The server we used for the class was from X10 Hosting ( https://x10hosting.com ), which offers free web hosting services to smaller websites. Students have been warned that before setting up their own website, either on X10 or elsewhere, they should sit down with their parents and go through the process together. A review of the Internet safety rules should be part of this conversation, and I suggest that parents check in on their childen's sites periodically to make sure that safe behavior is being followed.
+
+The two programs we used for this course are:
+
+Sublime Text ( http://www.sublimetext.com ) is a text editor with many helpful features for web developers. It is cross-platform and has an unlimited free trial of the next-to-current version. Any text editor can be used to make HTML and CSS documents, however. Even Windows Notepad.
+
+CyberDuck ( https://cyberduck.io ) is an FTP client that is cross-platform with drag-and-drop functionality. It is not my personal favorite, but it is very easy to use and install. A cost-free version is available for download on the CyberDuck website.
+
+The server for the class will remain online until one week past the end of Summer Lab, after which it will be removed for security. Until that time, I will still be glad to answer questions relating to the class by email with the subject 'Web Design Class'. I hope the rest of the summer is wonderful for you all.
+
+With regards,
+-Ian Huisken ("Mr. H")
