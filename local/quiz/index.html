@@ -3,22 +3,19 @@
 <head>
 <title>Mr. H's Riddles</title>
 <link rel='stylesheet' type='text/css' href='quiz.css' />
-
 <script type='text/javascript'>
-
-function revealAnswer(answer) {
-	answer.style.color = "#ffffff";
-}
+    function revealAnswer(id) {
+        document.getElementById(id).style.color = '#ffffff';
+    }
 </script>
-
 </head>
 <body>
 <h1>Mr. H has questions</h1>
 <p class='q'>The rich want it, the poor have it, and if you eat it, you will die. What is it?</p>
-<p class='a' id='nothing' onClick='revealAnswer(this)'>Nothing.</p>
+<p id='nothing' class='a' onClick='revealAnswer("nothing")'>Nothing.</p>
 
-<p class='q'>ouesndhsntaodusrcntaoehdnthaoeidbnvsdiauoethnshuaoetn</p>
-<p class='a' id='suin' onClick='revealAnswer(this)'>suinthiao-</p>
+<p class='q'>Did you know that Swedish Fish are completely vegan?</p>
+<p class='a' id='vegan' onClick='revealAnswer("vegan")'>They never eat any animal products in their lives.</p>
 
 </body>
 </html>

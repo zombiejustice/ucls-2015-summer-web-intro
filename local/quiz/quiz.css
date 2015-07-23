@@ -30,11 +30,11 @@ p.q {
 }
 
 p.a {
+	transition: color 5s linear;
 	border-top: none;
 	background-color: #000000;
 	color: #000000;
 	text-align: right;
 	margin-bottom: 10px;
-	transition: color 2s linear;
 }
 

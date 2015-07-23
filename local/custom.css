@@ -12,9 +12,11 @@ form {
 	box-sizing: border-box;
 	padding: 10px;
 	margin: 40px auto;
+	transition: background-color 2s linear;
 }
 
 h1 {
 	text-align: center;
 	color: #cccccc;
+	transition: font-size 2s linear;
 }
