@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Mr. H's Viscount Real Estate</title>
+	<link rel='stylesheet' type='text/css' href='fancygallery.css' />
+	<script type='text/javascript'>
+		var pics = ['White_House.jpg', 'Kremlin.jpg'];
+		var source = ['https://upload.wikimedia.org/wikipedia/commons/e/e1/White_House_Washington.JPG', 'http://best-posts.com/wp-content/uploads/2013/10/world_russia_view_of_the_kremlin_moscow_wallpaper-wide.jpg']
+		var fg = ['rgb(45, 46, 16)', 'rgb(0, 0, 0)'];
+		var bg = ['rgba(219, 190, 153, 0.8)', 'rgba(255, 255, 255, 0.8)'];
+		var border = ['rgba(115, 24, 5, 0.8', 'rgba(175, 175, 175, 0.8'];
+		var i = 0;
+		var search = window.location.search;
+		if (search != '') {
+			i = search.split('?')[1].split('=')[1];
+			if (i >= pics.length ) {
+				i = pics.length - 1;
+			}
+		}
+
+		function pickImage() {
+			document.body.style.backgroundImage = 'url("' + pics[i] + '")';
+			document.getElementsByTagName('img')[0].src = pics[i];
+			document.getElementsByTagName('div')[0].style.backgroundColor = bg[i];
+			document.getElementsByTagName('div')[0].style.borderColor = border[i];
+			document.getElementsByTagName('div')[0].style.color = fg[i];
+			document.getElementsByTagName('button')[0].style.borderColor = bg[i];
+			document.getElementsByTagName('a')[0].href = source[i];
+			document.getElementsByTagName('img')[0].alt = 'image source: ' + source[i];
+
+		}
+
+		function nextImage(j) {
+			i = parseInt(i) + j;
+			if (i >= pics.length) {
+				i = 0;
+			}
+			if (i < 0) {
+				i = pics.length -1;
+			}
+			window.location.search = '?img=' + i;;
+		}
+
+		function getKey(e) {
+			var c = e.keyCode;
+			if (c == 37) { nextImage(-1) }
+			if (c == 39) { nextImage(1) }
+		}
+
+
+	</script>
+</head>
+<body onLoad='pickImage()' onKeyDown='getKey(event)'>
+
+	<div>
+		<h1>House for Sale</h1>
+		
+		<button onClick='nextImage(1)'>Next House</button>
+		<a title='Click for original image' href='https://upload.wikimedia.org/wikipedia/commons/e/e1/White_House_Washington.JPG'><img alt='image source: https://upload.wikimedia.org/wikipedia/commons/e/e1/White_House_Washington.JPG' src='White_House.jpg' /></a>
+		<p>At <span style='font-weight: bold'>Mr. H's Viscount Real Estate</span> we believe that you should be able to live like a Duke -even on a Viscount budget! Click on the button to view all of our lovely homes for sale.</p> 
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue porta est sed viverra. Morbi commodo augue sollicitudin ex finibus rutrum. Nullam aliquam ligula faucibus, iaculis diam et, accumsan ipsum. Sed a lacus in massa malesuada egestas at a nulla. Nulla urna justo, varius id varius scelerisque, imperdiet quis sapien. Sed vel justo posuere, feugiat quam vitae, iaculis tellus. Sed pharetra felis non felis bibendum, et posuere risus molestie. Duis et nulla tellus. Nam gravida id nisi sit amet pretium. Suspendisse potenti.</p>
+		<p>Donec sit amet mi sit amet tortor hendrerit eleifend eget id tellus. Nullam gravida, magna vitae feugiat pulvinar, arcu mauris sollicitudin dolor, eget iaculis mi ipsum at orci. Suspendisse nec metus odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ac purus quam. Aenean luctus at risus ut ultrices. Phasellus ut lorem sit amet nunc dictum egestas non sit amet tortor. Proin ullamcorper aliquam mi, at rutrum dui consectetur vitae.</p>
+	</div>
+
+</body>
+</html>

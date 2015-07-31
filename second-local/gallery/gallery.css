@@ -1,0 +1,47 @@
+img {
+	width: 400px;
+	display: block;
+	margin: auto;
+}
+
+section {
+	margin: auto;
+	width: 600px;
+	box-sizing: border-box;
+	border-width: 30px;
+	border-style: double;
+	border-color: rgba(149, 5, 0, 0.7);
+	padding: 10px;
+	border-radius: 40px;
+	color: rgb(45, 46, 16);
+	background-color: rgb(219, 190, 153);
+	background-clip: padding-box;
+}
+
+button {
+	width: 400px;
+	border-radius: 0;
+	background-color: rgb(219, 190, 153);
+	border-color: rgb(189, 160, 123);
+	border-style: outset;
+	border-width: 15px;
+	display: block;
+	margin: auto;
+	font-size: 2.2em;
+
+}
+
+button:active {
+	border-style: inset;
+}
+
+body {
+	font-family: "Monaco", sans-serif;
+	background-image: url('square_White_House.jpg');
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+}

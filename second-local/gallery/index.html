@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Mr. H's Viscount Real Estate</title>
+	<link rel='stylesheet' type='text/css' href='gallery.css' />
+	<script type='text/javascript'>
+		var images = ['White_House.jpg', 'Kremlin.jpg'];
+		var bgcolors = ['rgb(219, 190, 153)', 'rgb(220, 220, 220)'];
+		var i = 0;
+
+		function nextImage() {
+			i = i + 1;
+			if ( i >= images.length ) { // is i too big?
+				i = 0;
+			}
+			//change the image
+			document.getElementsByTagName('img')[0].src = images[i];
+
+			//change the background image
+			document.body.style.backgroundImage = 'url("square_' + images[i] + '")';
+
+			//change the background colors
+			document.getElementsByTagName('section')[0].style.backgroundColor = bgcolors[i];
+			document.getElementsByTagName('button')[0].style.backgroundColor = bgcolors[i];
+			document.getElementsByTagName('button')[0].style.borderColor = bgcolors[i];
+		}
+
+		function getKey(e) {
+			var c = e.keyCode;
+			if (c == 39) {
+				nextImage();
+			}
+		}
+
+	</script>
+</head>
+<body onKeyDown='getKey(event)'>
+
+	<section>
+		<h1>House for Sale</h1>
+		<button onClick='nextImage()'>Next Image</button>
+		<a title='Click for original image' href='https://upload.wikimedia.org/wikipedia/commons/e/e1/White_House_Washington.JPG'><img alt='image source: https://upload.wikimedia.org/wikipedia/commons/e/e1/White_House_Washington.JPG' src='White_House.jpg' /></a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue porta est sed viverra. Morbi commodo augue sollicitudin ex finibus rutrum. Nullam aliquam ligula faucibus, iaculis diam et, accumsan ipsum. Sed a lacus in massa malesuada egestas at a nulla. Nulla urna justo, varius id varius scelerisque, imperdiet quis sapien. Sed vel justo posuere, feugiat quam vitae, iaculis tellus. Sed pharetra felis non felis bibendum, et posuere risus molestie. Duis et nulla tellus. Nam gravida id nisi sit amet pretium. Suspendisse potenti.</p>
+		<p>Donec sit amet mi sit amet tortor hendrerit eleifend eget id tellus. Nullam gravida, magna vitae feugiat pulvinar, arcu mauris sollicitudin dolor, eget iaculis mi ipsum at orci. Suspendisse nec metus odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ac purus quam. Aenean luctus at risus ut ultrices. Phasellus ut lorem sit amet nunc dictum egestas non sit amet tortor. Proin ullamcorper aliquam mi, at rutrum dui consectetur vitae.</p>
+		
+	</section>
+
+</body>
+</html>

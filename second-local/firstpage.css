@@ -1,0 +1,24 @@
+body {
+    color: #ffff99;
+    background-color: #333333;
+    font-size: 16pt;
+    font-family: 'Monaco', 'Courier New', monospace;
+
+}
+
+h1 {
+    text-align: center;
+    border: 10px solid #ffff99;
+    margin: 20px auto;
+    padding: 20px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+p {
+    width: 450px;
+    margin: auto;
+    background-color: #000000;
+    padding: 20px;
+    box-sizing: border-box;
+}

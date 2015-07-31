@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Custom Page</title>
+<link rel='stylesheet' type='text/css' href='custom.css' />
+<script type='text/javascript'>
+
+function customize() {
+	var text = document.getElementById('text').value;
+	document.getElementsByTagName('h1')[0].innerHTML = text;
+
+    var color = document.getElementById('color').value;
+	document.getElementsByTagName('form')[0].style.backgroundColor = color;
+
+	var size = document.getElementById('size').value;
+	document.getElementsByTagName('h1')[0].style.fontSize = size + 'em';
+
+	var fontface = document.getElementById('fontface').value;
+	document.getElementsByTagName('h1')[0].style.fontFamily = '"' + fontface + '", monospace';
+}
+</script>
+</head>
+<body>
+<form onChange='customize()'>
+	<label>Text:<input id='text' type='text' value='Customize this page!' /></label>
+	<label>Color:<input id='color' type='color' value='#cccccc' /></label>
+	<label>Size:<input id='size' type='range' min='1' max='10' value='3' /></label>
+	<label>Fontface:<select id='fontface'>
+		<option value='Lucida Console'>Lucida Console</option>
+		<option value='Monaco'>Monaco</option>
+		<option value='Courier New'>Courier New</option>
+	</select></label>
+</form>
+
+	<h1>Customize this page!</h1>
+</body>
+</html>

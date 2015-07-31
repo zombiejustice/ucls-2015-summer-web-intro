@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>All Libs Must Be Mad Libs</title>
+<link rel='stylesheet' type='text/css' href='madlibs.css' />
+<script type='text/javascript'>
+	function replace() {
+		//hide the form
+		document.getElementById('form').style.display = 'none';
+		//get all the inputs
+		var inputs = document.getElementsByTagName('input');
+		for (j=0; j<inputs.length; j++) {
+			//get each id and value
+			var id = inputs[j].id;
+			var word = inputs[j].value;
+			//get all the spans for that id
+			var spans = document.getElementsByClassName(id);
+			for (i=0; i<spans.length; i++) {
+				//replace all the words
+				spans[i].innerHTML = word;
+			}
+		}
+		//show the story
+		document.getElementById('story').style.display = 'block';
+	}
+	</script>
+</head>
+<body>
+	<main>
+	<!--This is a comment-->
+	<h1>A Day at the Park</h1>
+<section id='form'>
+
+<label><input type='text' id='noun0' /> Noun </label>
+<label><input type='text' id='proper0' /> Name </label>
+<label><input type='text' id='noun1' /> Noun </label>
+<label><input type='text' id='gerund0' /> Gerund ('-ing' word) </label>
+<label><input type='text' id='equipment' /> Sports Equipment </label>
+<label><input type='text' id='pastverb0' /> Past Tense Verb </label>
+<label><input type='text' id='noun2' /> Noun </label>
+<button onClick='replace()'>Go!</button>
+</section>
+<section id='story'>
+<p>One fine day while the <span class='noun0'>sun</span> was shining, a young girl named <span class='proper0'>Elizabeth</span> sat on a <span class='noun1'>bench</span> in the park and thought to herself, "Today I shall go <span class='gerund0'>swimming</span>." The only problem was, she didn't have her <span class='equipment'>swimsuit</span> with her!</p>
+<p>"I can't go <span class='gerund0'>swimming</span> without my <span class='equipment'>swimsuit</span>," she told herself. What could she do? Then she <span class='pastverb0'>had</span> an idea! She would just use her <span class='noun2'>whatchamacallit (you know, that thingamajig)</span> instead! <strong>And then she did.</strong></p>
+</section>
+</main>
+</body>
+</html>

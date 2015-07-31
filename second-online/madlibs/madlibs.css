@@ -1,0 +1,28 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100%;
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+	border-left: 100px solid #666666;
+	border-right: 100px solid #666666;
+    background-clip: padding-box;
+    background-color: #cccccc;
+}
+
+#story {
+	display: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+    display: block;
+}
